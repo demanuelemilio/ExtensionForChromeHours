@@ -1,0 +1,98 @@
+
+#lstTasks{ 
+	text-align: right;
+	width: 107%;
+}
+#bar{
+	overflow: hidden;
+	width: 400px;
+}
+#bar:hover{
+	overflow: auto;	
+}
+
+.noshow{display: none;}
+
+.table{width: 50%;}
+
+
+
+
+#graphViews{
+	 padding-top: 100px;
+}
+
+
+#pie-graph {
+  padding-top: 54px;
+}
+
+#buttonsRow {
+ left: 20px;
+}
+
+.oculto{
+     display: none;     
+}
+
+#other{
+	display: none;
+}
+
+.bar {
+  fill: blue;
+}
+
+.bar:hover {
+  fill: yellow;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+
+.showText{
+border-radius: 100%;
+position: fixed;
+width: 98px;
+height: 200px;
+z-index: 15;
+top: 50%;
+left: 110%;
+margin: -100px 0 0 -150px;
+
+}
+.showText2{
+border-radius: 100%;
+position: fixed;
+width: 98px;
+height: 200px;
+z-index: 15;
+top: 50%;
+right: 94%;
+margin: -100px 0 0 -150px;
+
+}
+.tachar{
+    text-decoration: line-through;
+}
+.arc path {
+       stroke: #fff;
+ }
+
+
+
+
+
